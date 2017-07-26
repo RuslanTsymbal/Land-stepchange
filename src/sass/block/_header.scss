@@ -1,0 +1,29 @@
+.page-header {
+  position: relative;
+}
+
+.header-content{
+  font-size: 36px;
+  line-height: 48px;
+  text-align: right;
+  z-index: 2;
+
+  @include max-w(768px) {
+    font-size: 4vw;
+  }
+
+  span {
+    color: #ffffff;
+  }
+
+  a {
+    color: #3ce3c7;
+    font-weight: 700;
+  }
+}
+
+.header-content {
+  position: absolute;
+  right: 15px;
+  top: 17px;
+}
