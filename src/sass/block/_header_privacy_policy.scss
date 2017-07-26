@@ -17,6 +17,10 @@
 .pr-pol-header-content {
   text-align: right;
 
+  @include max-w(1344px) {
+    padding-right: 15px;
+  }
+
   span {
     color: #cc1c78;
   }
